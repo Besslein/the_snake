@@ -73,8 +73,7 @@ class Apple(GameObject):
         """Случайное позиционирование в пределах поля"""
         return (
             randint(0, GRID_WIDTH - 1) * GRID_SIZE,
-            randint(0, GRID_HEIGHT - 1) * GRID_SIZE
-            )
+            randint(0, GRID_HEIGHT - 1) * GRID_SIZE)
 
     def draw(self):
         """Отрисовка яблока"""
